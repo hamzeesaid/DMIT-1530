@@ -1,0 +1,22 @@
+.row{
+    display: flex;
+    background-color: aquamarine;
+    gap: 16px;
+    /* to distribute the extra space on main axis , use justify-content */
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.flex-items{
+    width: 300px;
+    padding: 12px;
+    background-color: burlywood;
+}
+
+.column{
+    display: flex;
+    background-color: chartreuse;
+    gap: 16px;
+    flex-flow: column nowrap;
+    align-items: center;
+}
