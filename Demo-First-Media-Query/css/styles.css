@@ -1,0 +1,55 @@
+/* start mobile first - small screen first */
+/* this css will be apply to everything */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    color: white;
+}
+
+.a{
+    background-color: #a91b0d;
+}
+
+.b{
+    background-color: violet;
+}
+
+.c{
+    background-color: tomato;
+}
+
+/* change or overwrite when the sccreen get larger in a media query
+wih a condition */
+@media screen and (min-width:800px) {
+
+    .a{
+        background-color:#39d339;
+    }
+    
+}
+
+@media  screen and (min-width: 1000px) {
+    .b{
+        background-color: yellow;
+    }
+    li{
+        padding: 20px;
+    }
+    
+}
+
+@media  screen and (min-width: 1200px) {
+    .c{
+        background-color: blue;
+    }
+
+    .a,
+    .b,
+    .c{
+        width: 75vw;
+        margin: 0 auto;
+    }
+
+
+}
